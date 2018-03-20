@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1521475094536.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1834231324",
+    "id" : "A7F800D7",
+    "lastKnownWriteTime" : 1521475109,
+    "last_content_update" : 1521475109611,
+    "path" : "~/R/panelAppR/R/helpers.R",
+    "project_path" : "R/helpers.R",
+    "properties" : {
+        "cursorPosition" : "7,1",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
