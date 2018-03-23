@@ -8,3 +8,4 @@ vignettes/*.html
 vignettes/*.pdf
 # Session Data files
 .RData
+.Rbuildignore
