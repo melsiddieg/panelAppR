@@ -9,3 +9,4 @@ vignettes/*.pdf
 # Session Data files
 .RData
 .Rbuildignore
+.Rproj.user
