@@ -1,14 +1,15 @@
-#'#'@include helpers.R
+#' @include helpers.R
 #'
 #' getPanelList
-#'
-#'A function to list available gene panels
-#'
+#' @title getPanelList
+#' @description A function to list available gene panels
+#' @examples
+#' res <- getPanelList()
 #' @export
 getPanelList <- function(){
   url <- "https://panelapp.genomicsengland.co.uk/WebServices/list_panels/"
-  res <- fromJSON(url)$result
-  res
+  res <- fromJSON(url)
+  res$result
 }
 #' @title getPanel
 #'
@@ -33,10 +34,8 @@ getPanel <- function(panel,filter=NULL){
     furl <- paste0(url,panel)
   }
   print(paste("The query url is:", furl))
-  res <- fromJSON(furl)
-  genes <- res$result$Genes
-  # genes <- genes[,c(4:9)]
-  genes
+  res <- result_handler_gene(furl)
+  res
 
 }
 #'
@@ -59,6 +58,6 @@ getGene <- function(gene,filter=NULL){
     furl <- paste0(url,gene)
   }
   print(paste("The query url is:", furl))
-  res <- fromJSON(furl)$result
+  res <- result_handler(furl)
   res
 }

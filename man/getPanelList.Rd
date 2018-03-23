@@ -2,13 +2,13 @@
 % Please edit documentation in R/panel_query.R
 \name{getPanelList}
 \alias{getPanelList}
-\title{#'@include helpers.R}
+\title{getPanelList}
 \usage{
 getPanelList()
 }
 \description{
-getPanelList
-}
-\details{
 A function to list available gene panels
+}
+\examples{
+res <- getPanelList()
 }

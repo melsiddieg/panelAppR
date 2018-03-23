@@ -12,3 +12,6 @@ LazyData: true
 Depends: R(>= 3.4), jsonlite, purrr
 Imports: httr
 RoxygenNote: 6.0.1
+Collate: 
+    'helpers.R'
+    'panel_query.R'
